@@ -2,9 +2,9 @@
 
 Python version >= 3.10
 
-need to set the `OPENAI_API_KEY` constant. 
+need to set the `OPENAI_API_KEY` environment variables. 
 
-If you are using cf worker, please also set the `OPENAI_API_BASE` constant. 
+If you are using cf worker, please also set the `OPENAI_API_BASE` environment variables. 
 
 Run this from the project root directory.
 
@@ -15,3 +15,7 @@ pip install -r requirement.txt
 
 gradio main.py
 ```
+
+This project UI was created using [gradio](https://gradio.app/)
+
+
