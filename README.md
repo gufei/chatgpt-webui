@@ -11,7 +11,7 @@ Run this from the project root directory.
 ```bash
 export OPENAI_API_KEY=your_openai_api_key
 
-pip install -r requirement.txt
+pip install -r requirements.txt
 
 gradio main.py
 ```
