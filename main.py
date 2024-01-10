@@ -44,4 +44,4 @@ with gr.Blocks() as ChatAPP:
     # )
     clean_btn.click(fn=chatgpt.clean, outputs=chatbot)
 
-ChatAPP.launch(auth=auth_fn)
+ChatAPP.launch(auth=auth_fn, server_name='0.0.0.0')
